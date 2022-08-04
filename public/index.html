@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Un nuevo camino para revolucionar el sistema de reciclje"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&family=Raleway:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Stylessheet -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Apple Touch Icon (at least 200x200px) -->
+    <link rel="apple-touch-icon" href="/custom-icon.png" />
+
+    <!-- To run web application in full-screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Status Bar Style (see Supported Meta Tags below for available values) -->
+    <!-- Has no effect unless you have the previous meta tag -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-config" content="browserconfig.xml" />
+
+    <!-- Helps prevent duplicate content issues -->
+    <link
+      rel="canonical"
+      href="http://example.com/2017/09/a-new-article-to-read.html"
+    />
+
+    <!-- Open Graph -->
+
+    <meta property="og:title" content="Lu'um-e | " />
+    <meta
+      property="og:description"
+      content="Un innovador sistema de gestión de residuso solidos reciclados?"
+    />
+    <meta property="og:image" content="img/header_mockup-1x" />
+
+    <!-- Fav Icon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Tittle -->
+    <title>Lu'um-e | Un innovador sistema de reciclaje</title>
+  </head>
+
+  <body class="container">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="index.html">
+        <img
+          srcset="
+            img/luume-nav_logo-1x.jpg 166w,
+            img/luume-nav_logo-2x.jpg 322w
+          "
+          sizes="(max-width: 900px) 19vw, (max-width: 600px) 100vw, 322px"
+          alt="Lu'um-e Logo"
+          class="navbar-logo"
+          src="img/luume-nav_logo-2x.jpg"
+        />
+      </a>
+
+      <input type="checkbox" class="navbar__checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navbar__button">
+        <span class="navbar__button-icon">&nbsp;</span>
+      </label>
+      <div class="navbar__background">&nbsp;</div>
+
+      <div class="navbar__container">
+        <ul class="navbar__container-links">
+          <li class="navbar__item">
+            <a href="/" class="navbar__container-link">Inicio</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#caracteristicas" class="navbar__container-link"
+              >Características</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="#servicios" class="navbar__container-link">Servicios</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#acerca" class="navbar__container-link">Acerca</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#popup" class="btn btn--main">Ser miembro</a>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="header" id="inicio">
+      <div class="header__box">
+        <img
+          src="img/Rectangule_header.png"
+          alt="Rectangule"
+          class="rectangule__header"
+        />
+        <h1 class="header__box-head heading-1">
+          Un nuevo camino para revolucionar el sistema de reciclaje
+        </h1>
+        <p class="header__box-text">
+          Lu’um-e es una app que facilita el proceso dé reciclaje en el hogar
+          conectando a usuarios con centros de acopio; quienes recolectan y
+          ofrecen servicios a domicilio de manera práctica y conveniente. Se
+          parte de nuestro lanzamiento:
+        </p>
+        <div class="header__box-form">
+          <form class="form">
+            <div class="form__group">
+              <input
+                type="email"
+                class="form__input"
+                placeholder="Escribe tu correo aqui"
+                id="email"
+                required
+                autocomplete="off"
+              />
+            </div>
+            <button class="btn btn--form" type="submit" value="Send Message">
+              Ser miembro
+            </button>
+          </form>
+        </div>
+        <p class="header__box-launch">
+          Inicialmente iOS 2023. Android poco después.
+        </p>
+      </div>
+      <div class="header__image">
+        <img
+          srcset="img/header_mockup-1x.png 695w, img/header_mockup-2x.png 1390w"
+          sizes="(max-width: 1400px) 60vw, (max-width: 750px) 20vw, 1390px"
+          alt="lu'um-e App"
+          class="header__mockup"
+          src="img/header_mockup-2x.png"
+        />
+      </div>
+    </header>
+
+    <section class="video">
+      <!-- <iframe
+        class="video-luume"
+        src="https://www.youtube.com/embed/_WQ9gPmd9PI"
+        title="Road Trip 🚐 - An Indie/Pop/Rock Playlist | Vol. 4"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe> -->
+    </section>
+
+    <section class="caracteristica-1" id="caracteristicas">
+      <div class="domicilio">
+        <div class="domicilio__box">
+          <img
+            src="img/Blue_rectangule.png"
+            alt="REctangule"
+            class="blue-rectangule"
+          />
+          <h2 class="heading-2 dom_header">
+            Sistema de recolección a domicilio
+          </h2>
+          <img src="img/dom_ball-1.png" alt="Ball" class="dom_ball-1" />
+          <img src="img/dom_ball-2.png" alt="Ball" class="dom_ball-2" />
+          <img src="img/dom_ball-3.png" alt="Ball" class="dom_ball-3" />
+          <h3 class="heading-3 dom_head-1">Localiza centros de acopio</h3>
+          <p class="dom_text dom_text-1">
+            ¿Desconoces los centros de acopio en tu localidad? Utiliza nuestro
+            navegador y encuentra el centro de acopio adecuado para tus
+            residuos.
+          </p>
+          <h3 class="heading-3 dom_head-2">
+            Selecciona un servicio a domicilio
+          </h3>
+          <p class="dom_text dom_text-2">
+            ¿El tiempo de traslado y servicio en centros de acopio es una
+            molestia? Con Lu’um-e tendrás la oportunidad de elegir un servicio
+            personalizado a domicilio.
+          </p>
+          <h3 class="heading-3 dom_head-3">Califica tu experiencia</h3>
+          <p class="dom_text dom_text-3">
+            La calificación de tu experiencia al terminar el servicio ayuda a
+            otros usuarios a elegir la mejor calidad de servicio.
+          </p>
+        </div>
+        <div class="domicilio__images">
+          <img
+            srcset="
+              img/reciclaje_image_1-1x.png 488w,
+              img/reciclaje_image_1-2x.png 976w
+            "
+            sizes="(max-width: 1400px) 55vw, (max-width: 750px) 30vw, 508px"
+            alt="Domiclio Caracteristicas"
+            class="dom__mockup"
+            src="img/reciclaje_image_1-2x.png"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="caracteristicas-2">
+      <div class="reciclaje__images">
+        <img
+          srcset="
+            img/reciclaje_image_2-1x.png 488w,
+            img/reciclaje_image_2-2x.png 976w
+          "
+          sizes="(max-width: 1400px) 55vw, (max-width: 750px) 30vw, 508px"
+          alt="Domiclio Caracteristicas"
+          class="rec__mockup"
+          src="img/reciclaje_image_2-2x.png"
+        />
+      </div>
+      <div class="reciclaje__box">
+        <img
+          src="img/yellow_rec.jpg"
+          alt="Yellow Rec"
+          class="yellow_rectangule"
+        />
+        <h2 class="heading-2 rec__header">
+          Transforma tu experiencia de reciclaje
+        </h2>
+        <img src="img/rec_ball-1.png" alt="Ball 1" class="rec_ball-1" />
+        <img src="img/rec_ball-2.png" alt="Ball 2" class="rec_ball-2" />
+        <img src="img/rec_ball-3.png" alt="Ball 3" class="rec_ball-3" />
+        <h3 class="heading-3 rec_head-1">Administra tu reciclaje</h3>
+        <p class="rec_text rec_text-1">
+          ¿El espacio en el hogar es un problema? ¿Desorden? Lu’um-e ofrece
+          herramientas para mejorar el proceso de reciclaje.
+        </p>
+        <h3 class="heading-3 rec_head-2">Educación ambiental</h3>
+        <p class="rec_text rec_text-2">
+          ¿No sabes cómo reciclar un material? En nuestra biblioteca digital
+          encontrarás todo lo necesario para reciclar.
+        </p>
+        <h3 class="heading-3 rec_head-3">Recibe premios</h3>
+        <p class="rec_text rec_text-3">
+          Cada vez que solicitas un servicio a domicilio recibirás recompensas y
+          descuentos que podrás utilizar en mercados y negocios sustentables.
+        </p>
+      </div>
+    </section>
+    <section class="acopio" id="servicios">
+      <div class="background">
+        <img
+          srcset="
+            img/acopio_background-1x.jpg 1920w,
+            img/acopio_background-2x.jpg 3840w
+          "
+          sizes="(max-width: 1200px) 100vw, (max-width: 750px) 100vw, (max-width: 400px) 100vw, 508px"
+          alt="Acopio Background"
+          class="acopio_background"
+          src="img/acopio_background-1x.jpg"
+        />
+      </div>
+      <div class="acopio_texto">
+        <h2 class="heading-2 acopio-header">
+          ¿Te gustaría crear tu propio centro de acopio y generar ingresos
+          extras?
+        </h2>
+        <img
+          src="img/barra_hor.jpg"
+          alt="Bara Horizontal"
+          class="acopio_barra"
+        />
+
+        <img
+          srcset="img/acopio_image-1x.png 817w, img/acopio_image-2x.png 1634w"
+          sizes="(max-width: 1200px) 85vw, (max-width: 750px) 50vw, (max-width: 600px) 35vw, 840px"
+          alt="lu'um-e acopio"
+          class="acopio_image"
+          src="img/acopio_image-1x.jpg"
+        />
+      </div>
+    </section>
+    <section class="acopio_features">
+      <div class="acopio_features-domicilio">
+        <h3 class="heading-3 acopio-text">
+          Proveé servicios de recolección a domicilio
+        </h3>
+        <lottie-player
+          src="https://assets7.lottiefiles.com/packages/lf20_kx6a1byu.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+          class="acopio_animation-1"
+        ></lottie-player>
+        <p class="acopio_features-text">
+          Crea un centro de acopio y habilita la opción de ofrecer servicios de
+          recolección a domicilio
+        </p>
+      </div>
+      <div class="acopio_features-dinero">
+        <h3 class="heading-3 acopio-text">Genera Ingresos Extras</h3>
+        <lottie-player
+          src="https://assets3.lottiefiles.com/packages/lf20_q8mar8hq.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+          class="acopio_animation-2"
+        ></lottie-player>
+        <p class="acopio_features-text">
+          Genera desde 5,000 MXN extras a la semana con servicios a domicilio y
+          recolección de reciclaje.
+        </p>
+      </div>
+      <div class="acopio_features-pago">
+        <h3 class="heading-3 acopio-text">
+          Integración de sistemas de pago digitales
+        </h3>
+        <lottie-player
+          src="https://assets10.lottiefiles.com/packages/lf20_ufoeuntu.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+          class="acopio_animation-3"
+        ></lottie-player>
+        <p class="acopio_features-text">
+          Crea un centro de acopio y habilita la opción de ofrecer servicios de
+          recolección a domicilio.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer" id="acerca">
+      <div class="footer_content">
+        <img
+          src="img/luume_footer-2x.png"
+          alt="Lu'um-e Logo"
+          class="footer_logo"
+        />
+        <div class="footer_content-text">
+          <div class="footer_content-informacion">
+            <span class="footer_text-head">Más información</span>
+            <ul class="footer__nav">
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Contacto</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Politicas de Privacidad</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_content-siguenos">
+            <span class="footer_text-head">Siguenos</span>
+            <a href="#" class="instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" class="facebook"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>© Copyright 2022 lu’um-e</span>
+      </div>
+    </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <img src="img/popup-1.jpg" alt="Popup 1" class="popup-img" />
+        <img src="img/popup-2.jpg" alt="Popup 2" class="popup-img2" />
+
+        <div class="popup-description">
+          <a href="#" class="popup__close">&times;</a>
+
+          <h2 class="heading-2 heading-2--yellow heading-2--popup">
+            Se parte de nuestro lanzamiento:
+          </h2>
+          <p class="popup-text">
+            Suscirbete a nuestra lista de correos y se la primera persona en
+            enterarse cuando la aplicacion este lista para descargarse:
+          </p>
+
+          <form class="form_popup">
+            <div class="form_popup-group">
+              <input
+                type="email"
+                class="form_popup-input"
+                placeholder="Escribe tu correo aqui"
+                id="email"
+                required
+                autocomplete="off"
+              />
+              <label for="email" class="form_popup-label"
+                >Corre Electronico</label
+              >
+            </div>
+
+            <button class="btn btn--form" type="submit" value="Send Message">
+              Ser miembro &rarr;
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lottie files  -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <!-- custom js file link -->
+    <script src="/js/script.js"></script>
+  </body>
+</html>

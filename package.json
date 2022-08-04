@@ -1,0 +1,27 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "14.15.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-sslify": "^1.2.0",
+    "googleapis": "^100.0.0",
+    "helmet": "^5.0.2",
+    "helmet-csp": "^3.4.0",
+    "nodemailer": "^6.7.3",
+    "request": "^2.88.2",
+    "smtp": "^0.1.4"
+  }
+}
