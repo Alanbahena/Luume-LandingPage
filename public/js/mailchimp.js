@@ -14,7 +14,7 @@ subscriptionForm.addEventListener("submit", (e) => {
   xhr.onload = function () {
     console.log(xhr.responseText);
     if (xhr.responseText == "success") {
-      alert("Subscripción con exito");
+      alert("Suscripción con exito");
       email.value = "";
     } else {
       alert("Algo ha ocurrido! Por favor volver a intentar");
