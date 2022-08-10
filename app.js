@@ -31,6 +31,9 @@ app.use("/", viewRouter);
 app.post("/subscription", (req, res) => {
   const email = req.body.email;
 
+  console.log(email);
+  console.log("Hello from the server");
+
   const data = {
     members: [
       {
