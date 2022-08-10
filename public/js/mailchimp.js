@@ -34,7 +34,7 @@ subscriptionForm2.addEventListener("submit", (e) => {
   };
 
   let xhr = new XMLHttpRequest();
-  xhr.open("POST", "/subscription");
+  xhr.open("POST", "/subscription2");
   xhr.setRequestHeader("content-type", "application/json");
 
   xhr.onload = function () {
