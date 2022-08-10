@@ -154,6 +154,7 @@
                 type="email"
                 class="form__input"
                 placeholder="Escribe tu correo aqui"
+                name="email"
                 id="email"
                 required
                 autocomplete="off"
@@ -418,7 +419,7 @@
             enterarse cuando la aplicacion este lista para descargarse:
           </p>
 
-          <form class="form_popup">
+          <form class="form_popup" method="post" action="/suscription">
             <div class="form_popup-group">
               <input
                 type="email"
@@ -446,5 +447,6 @@
 
     <!-- custom js file link -->
     <script src="/js/script.js"></script>
+    <script src="/js/mailchimp.js"></script>
   </body>
 </html>

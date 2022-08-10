@@ -28,4 +28,38 @@ app.use(express.static(path.join(__dirname, "public")));
 // Routes
 app.use("/", viewRouter);
 
+app.post("/subscription", (req, res) => {
+  const email = req.body.email;
+
+  const data = {
+    members: [
+      {
+        email_address: email,
+        status: "subscribed",
+      },
+    ],
+  };
+
+  const postData = JSON.stringify(data);
+
+  const options = {
+    url: `https://us14.api.mailchimp.com/3.0/lists/${process.env.MAILCHIMP_ID}`,
+    method: "POST",
+    headers: {
+      Authorization: `auth ${process.env.MAILCHIMP_KEY}`,
+    },
+    body: postData,
+  };
+
+  request(options, (err, response, body) => {
+    if (err) {
+      console.log(error);
+      res.send("error");
+    } else {
+      console.log("Email Subscribed");
+      res.send("success");
+    }
+  });
+});
+
 module.exports = app;
