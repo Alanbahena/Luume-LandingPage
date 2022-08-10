@@ -21,6 +21,7 @@
     "helmet": "^5.0.2",
     "helmet-csp": "^3.4.0",
     "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.19",
     "request": "^2.88.2",
     "smtp": "^0.1.4"
   }
