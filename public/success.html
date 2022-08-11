@@ -14,6 +14,21 @@
       content="Un nuevo camino para revolucionar el sistema de reciclje"
     />
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-237210150-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-237210150-1");
+    </script>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -89,7 +104,7 @@
   <body class="success_container">
     <!-- Navbar -->
     <nav class="navbar">
-      <a href="index.html">
+      <a href="/">
         <img
           srcset="
             img/luume-nav_logo-1x.jpg 166w,
@@ -159,10 +174,10 @@
             <span class="footer_text-head">Más información</span>
             <ul class="footer__nav">
               <li class="footer__nav-item">
-                <a href="contacto.html" class="footer__nav-link">Contacto</a>
+                <a href="/contacto" class="footer__nav-link">Contacto</a>
               </li>
               <li class="footer__nav-item">
-                <a href="privacidad.html" class="footer__nav-link"
+                <a href="/privacidad" class="footer__nav-link"
                   >Politicas de Privacidad</a
                 >
               </li>

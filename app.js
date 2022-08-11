@@ -28,6 +28,8 @@ app.use(express.static(path.join(__dirname, "public")));
 // Routes
 app.use("/", viewRouter);
 
+// POST
+
 app.post("/subscription", (req, res) => {
   const email = req.body.email;
 
@@ -55,7 +57,7 @@ app.post("/subscription", (req, res) => {
     if (err) {
       res.sendFile("./failure.html", { root: "public" });
     } else {
-      res.sendFile("./sucess.html", { root: "public" });
+      res.sendFile("./success.html", { root: "public" });
     }
   });
 });
