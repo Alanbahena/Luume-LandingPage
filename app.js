@@ -53,9 +53,9 @@ app.post("/subscription", (req, res) => {
 
   request(options, (err, response, body) => {
     if (err) {
-      res.sendFile(__dirname + "/failure.html");
+      res.sendFile("./failure.html", { root: "public" });
     } else {
-      res.sendFile(__dirname + "/success.html");
+      res.sendFile("./sucess.html", { root: "public" });
     }
   });
 });
