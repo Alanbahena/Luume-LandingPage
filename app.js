@@ -53,11 +53,9 @@ app.post("/subscription", (req, res) => {
 
   request(options, (err, response, body) => {
     if (err) {
-      console.log(error);
-      res.send("error");
+      res.sendFile(__dirname + "/failure.html");
     } else {
-      console.log("Email Subscribed");
-      res.send("success");
+      res.sendFile(__dirname + "/success.html");
     }
   });
 });
