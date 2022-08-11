@@ -149,12 +149,13 @@
           parte de nuestro lanzamiento:
         </p>
         <div class="header__box-form">
-          <form class="form">
+          <form class="form" method="post" action="/subscription">
             <div class="form__group">
               <input
                 type="email"
                 class="form__input"
                 placeholder="Escribe tu correo aqui"
+                name="email"
                 id="email"
                 required
                 autocomplete="off"
@@ -452,13 +453,14 @@
             enterarse cuando la aplicacion este lista para descargarse:
           </p>
 
-          <form class="form_popup">
+          <form class="form_popup" method="post" action="/subscription">
             <div class="form_popup-group">
               <input
                 type="email"
                 class="form_popup-input"
                 placeholder="Escribe tu correo aqui"
                 id="email"
+                name="email"
                 required
                 autocomplete="off"
               />
