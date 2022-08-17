@@ -34,7 +34,7 @@ const viewRouter = require("./routes/viewRouter");
 const { oauth2 } = require("googleapis/build/src/apis/oauth2");
 
 const app = express();
-// app.use(enforce.HTTPS({ trustProtoHeader: true }));
+app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
