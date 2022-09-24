@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&family=Raleway:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Raleway:wght@300;400;500;800&display=swap"
       rel="stylesheet"
     />
 
@@ -155,12 +155,13 @@
           class="rectangule__header"
         />
         <h1 class="header__box-head heading-1">
-          Un nuevo camino para revolucionar el sistema de reciclaje
+          Un nuevo camino para revolucionar el sistema de <span>reciclaje</span>
         </h1>
+
         <p class="header__box-text">
-          Lu’um-e es una app que te conecta con centros de acopio; quienes
-          recolectan y ofrecen servicios de recolección a domicilio de una
-          manera práctica y conveniente. <br />
+          Lu’um-e es una app que facilita el proceso de reciclaje en el hogar
+          conectando a usuarios con centros de acopio; quienes recolectan y
+          ofrecen servicios a domicilio de manera práctica y conveniente. <br />
           Se parte de nuestro lanzamiento:
         </p>
         <div class="header__box-form">
@@ -197,208 +198,155 @@
       </div>
     </header>
 
-    <section class="video">
-      <iframe
-        class="video-luume"
-        src="https://www.youtube.com/embed/9VBq5LFVA04"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+    <section class="video" id="counter">
+      <div class="background-image" loading="lazy" id="caracteristicas">
+        <div class="video__content">
+          <div class="video__content__text video__content__text-1">
+            <img src="img/Rec_green-video.png" alt="Yellow" />
+            <span
+              class="video-header counter-value counter-value-1"
+              data-count="42000000"
+            ></span>
+
+            <p class="video-text">
+              Cantidad de <span>residuos</span> generados en un año en México
+            </p>
+          </div>
+          <div class="video__content__text video__content__text-2">
+            <img src="img/Rec_green-video.png" alt="Yellow" />
+            <span
+              class="video-header counter-value counter-value-2"
+              data-count="1.1"
+            ></span>
+            <p class="video-text">
+              Residuos promedio generados por <span>persona</span> en un día
+            </p>
+          </div>
+          <div class="video__content__text video__content__text-3">
+            <img src="img/Rec_green-video.png" alt="Yellow" />
+            <span
+              class="video-header counter-value counter-value-3"
+              data-count="12"
+            ></span>
+            <p class="video-text">
+              Se estima que solo el 12% se <span>recicla</span> en México
+            </p>
+          </div>
+        </div>
+        <iframe
+          class="video-luume"
+          src="https://www.youtube.com/embed/9VBq5LFVA04"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </section>
 
-    <section class="caracteristica-1" id="caracteristicas">
-      <div class="domicilio">
-        <div class="domicilio__box">
-          <img
-            src="img/Blue_rectangule.png"
-            alt="REctangule"
-            class="blue-rectangule"
-          />
-          <h2 class="heading-2 dom_header">
-            Solicita un servicio de recolección
-          </h2>
-          <img
-            src="img/dom_ball-1.png"
-            alt="Ball"
-            class="dom_ball-1"
-            loading="lazy"
-          />
-          <img
-            src="img/dom_ball-2.png"
-            alt="Ball"
-            class="dom_ball-2"
-            loading="lazy"
-          />
-          <img
-            src="img/dom_ball-3.png"
-            alt="Ball"
-            class="dom_ball-3"
-            loading="lazy"
-          />
-          <h3 class="heading-3 dom_head-1">
-            Transforma tu experiencia de reciclaje
+    <section class="caracteristica__2">
+      <div class="caracteristica__2--bck">
+        <div class="caracteristica__2__textbox scroll-reveal">
+          <p class="caracteristica__2__textbox--subheader">
+            Característica del servicio
+          </p>
+          <h3 class="heading-2">
+            Solicita un servicio de <span>recolección</span>.
           </h3>
-          <p class="dom_text dom_text-1">
-            ¿Desconoces los centros de acopio en tu localidad? Utiliza nuestro
-            navegador y encuentra el centro de acopio adecuado para tus
-            residuos.
-          </p>
-          <h3 class="heading-3 dom_head-2">Selecciona un centro de acopio</h3>
-          <p class="dom_text dom_text-2">
-            ¿El tiempo de traslado y servicio en centros de acopio es una
-            molestia? Con Lu’um-e tendrás la oportunidad de elegir un servicio
-            personalizado a domicilio.
-          </p>
-          <h3 class="heading-3 dom_head-3">Califica tu experiencia</h3>
-          <p class="dom_text dom_text-3">
-            La calificación de tu experiencia al terminar el servicio ayuda a
-            otros usuarios a elegir la mejor calidad de servicio.
+          <p class="caracteristica__2__textbox--text">
+            Elige un centro de acopio, fecha, lugar y hora. Personaliza el
+            servicio de recolección que desees.
           </p>
         </div>
-        <div class="domicilio__images">
-          <img
-            srcset="
-              img/reciclaje_image_1-1x.png 488w,
-              img/reciclaje_image_1-2x.png 976w
-            "
-            sizes="(max-width: 1400px) 55vw, (max-width: 750px) 30vw, 508px"
-            alt="Domiclio Caracteristicas"
-            class="dom__mockup"
-            loading="lazy"
-            src="img/reciclaje_image_1-2x.png"
-          />
+        <div class="caracteristica__2__imagebox">
+          <lottie-player
+            src="img/json/car.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+            class="caracteristica__2__imagebox--lottie2"
+          ></lottie-player>
         </div>
       </div>
     </section>
 
-    <section class="caracteristicas-2">
-      <div class="reciclaje__images">
-        <img
-          srcset="
-            img/reciclaje_image_2-1x.png 488w,
-            img/reciclaje_image_2-2x.png 976w
-          "
-          sizes="(max-width: 1400px) 55vw, (max-width: 750px) 30vw, 508px"
-          alt="Domiclio Caracteristicas"
-          class="rec__mockup"
-          loading="lazy"
-          src="img/reciclaje_image_2-2x.png"
-        />
+    <section class="caracteristica__1" id="servicios">
+      <div class="caracteristica__1__textbox">
+        <p class="caracteristica__1__textbox--subheader">
+          Característica del servicio
+        </p>
+        <h3 class="heading-2"><span>Aprende</span> y recicla correctamente</h3>
+        <p class="caracteristica__1__textbox--text">
+          Te acompañamos en el proceso de reciclaje. Dentro de nuestra
+          biblioteca digital encontrarás el soporte y herramientas que necesitas
+          para separar todos tus residuos.
+        </p>
       </div>
-      <div class="reciclaje__box">
-        <img
-          src="img/yellow_rec.jpg"
-          alt="Yellow Rec"
-          class="yellow_rectangule"
-        />
-        <h2 class="heading-2 rec__header">Genera un monedero digital</h2>
-        <img src="img/rec_ball-1.png" alt="Ball 1" class="rec_ball-1" />
-        <img src="img/rec_ball-2.png" alt="Ball 2" class="rec_ball-2" />
-        <img src="img/rec_ball-3.png" alt="Ball 3" class="rec_ball-3" />
-        <h3 class="heading-3 rec_head-1">Transforma el valor</h3>
-        <p class="rec_text rec_text-1">
-          ¿El espacio en el hogar es un problema? ¿Desorden? Lu’um-e ofrece
-          herramientas para mejorar el proceso de reciclaje.
-        </p>
-        <h3 class="heading-3 rec_head-2">Biblioteca ambiental</h3>
-        <p class="rec_text rec_text-2">
-          ¿No sabes cómo reciclar un material? En nuestra biblioteca digital
-          encontrarás todo lo necesario para reciclar.
-        </p>
-        <h3 class="heading-3 rec_head-3">Acumula un monedero digital</h3>
-        <p class="rec_text rec_text-3">
-          ¿Monedero digital a cambio de tus residuos? Monedero que podrías
-          utilizar para comprar productos ecológicos en negocios sustentables.
-        </p>
+      <div class="caracteristica__1__imagebox">
+        <lottie-player
+          src="img/json/cara1.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+          class="caracteristica__1__imagebox--lottie"
+        ></lottie-player>
       </div>
     </section>
-    <section class="acopio" id="servicios">
-      <div class="background">
-        <img
-          srcset="
-            img/acopio_background-1x.jpg 1920w,
-            img/acopio_background-2x.jpg 3840w
-          "
-          sizes="(max-width: 1200px) 100vw, (max-width: 750px) 100vw, (max-width: 400px) 100vw, 508px"
-          alt="Acopio Background"
-          class="acopio_background"
-          loading="lazy"
-          src="img/acopio_background-1x.jpg"
-        />
-      </div>
-      <div class="acopio_texto">
-        <h2 class="heading-2 acopio-header">
-          ¿Te gustaría crear tu propio centro de acopio y generar ingresos
-          extras?
-        </h2>
-        <img
-          src="img/barra_hor.jpg"
-          alt="Bara Horizontal"
-          class="acopio_barra"
-        />
 
-        <img
-          srcset="img/acopio_image-1x.png 817w, img/acopio_image-2x.png 1634w"
-          sizes="(max-width: 1200px) 85vw, (max-width: 750px) 50vw, (max-width: 600px) 35vw, 840px"
-          alt="lu'um-e acopio"
-          class="acopio_image"
-          loading="lazy"
-          src="img/acopio_image-1x.jpg"
-        />
+    <section class="caracteristica__3">
+      <div class="caracteristica__3__textbox">
+        <p class="caracteristica__3__textbox--subheader">
+          Característica del servicio
+        </p>
+        <h3 class="heading-2">
+          Prueba tu <span>impacto</span> ambiental y genera un
+          <span>monedero</span> digital
+        </h3>
+        <p class="caracteristica__3__textbox--text">
+          Visualiza y comparte tu impacto ambiental. Recibe un monedero digital
+          que podrás utilizar para comprar productos ecológicos en negocios
+          sustentables en tu comunidad.
+        </p>
+      </div>
+      <div class="caracteristica__3__imagebox">
+        <lottie-player
+          src="img/json/data3.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+          class="caracteristica__3__imagebox--lottie3"
+        ></lottie-player>
       </div>
     </section>
-    <section class="acopio_features">
-      <div class="acopio_features-domicilio">
-        <h3 class="heading-3 acopio-text">
-          Proveé servicios de recolección a domicilio
-        </h3>
-        <lottie-player
-          src="https://assets7.lottiefiles.com/packages/lf20_kx6a1byu.json"
-          background="transparent"
-          speed="1"
-          loop
-          autoplay
-          class="acopio_animation-1"
-        ></lottie-player>
-        <p class="acopio_features-text">
-          Crea un centro de acopio y habilita la opción de ofrecer servicios de
-          recolección a domicilio
-        </p>
-      </div>
-      <div class="acopio_features-dinero">
-        <h3 class="heading-3 acopio-text">Genera Ingresos Extras</h3>
-        <lottie-player
-          src="https://assets3.lottiefiles.com/packages/lf20_q8mar8hq.json"
-          background="transparent"
-          speed="1"
-          loop
-          autoplay
-          class="acopio_animation-2"
-        ></lottie-player>
-        <p class="acopio_features-text">
-          Genera desde 5,000 MXN extras a la semana con servicios a domicilio y
-          recolección de reciclaje.
-        </p>
-      </div>
-      <div class="acopio_features-pago">
-        <h3 class="heading-3 acopio-text">
-          Integración de sistemas de pago digitales
-        </h3>
-        <lottie-player
-          src="https://assets10.lottiefiles.com/packages/lf20_ufoeuntu.json"
-          background="transparent"
-          speed="1"
-          loop
-          autoplay
-          class="acopio_animation-3"
-        ></lottie-player>
-        <p class="acopio_features-text">
-          Lu'um-e ofrece todas las herramientas para la recolección y venta de
-          residuos reciclados con integración de navegadores y sistemas de pagos
-          digitales.
-        </p>
+
+    <section class="caracteristica__4">
+      <div class="caracteristica__4--bck">
+        <div class="caracteristica__4__textbox">
+          <p class="caracteristica__4__textbox--subheader">
+            Característica del servicio
+          </p>
+          <h3 class="heading-2">
+            Crea tu <span>propio</span> centro de acopio y genera
+            <span>ingresos</span> extras
+          </h3>
+          <p class="caracteristica__4__textbox--text">
+            Genera desde $5 mil MXN semanales ofreciendo servicios de
+            recolección personalizados.
+          </p>
+        </div>
+        <div class="caracteristica__4__imagebox">
+          <lottie-player
+            src="img/json/home.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+            class="caracteristica__4__imagebox--lottie4"
+          ></lottie-player>
+        </div>
       </div>
     </section>
 
